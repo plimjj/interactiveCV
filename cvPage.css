@@ -1,0 +1,14 @@
+.center-block {
+    margin: 0 auto;
+    width: 0%;
+    border: 0px;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    height: 33%;
+}
+
+.more-stuff {
+    margin: 0 auto;
+    width: 0px;
+    border: 0px;
+}
