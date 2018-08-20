@@ -18,9 +18,9 @@ $(document).ready(function() {
 
 
     $("#facebookBtn").on("click", function() {
-        var facebookWin = window.open("https://www.facebook.com/PLimJJ","_blank");
+        var win = window.open("https://www.facebook.com/PLimJJ","_blank");
         console.log("facebook click")
-        if (facebookWin) {
+        if (win) {
             win.focus();
         } else {
             alert("Please allow popups for this website :P");
@@ -28,16 +28,16 @@ $(document).ready(function() {
     });
 
     $('#igBtn').on("click", function() {
-        var igWin = window.open("https://www.instagram.com/plimjj/?hl=en","_blank");
-        if (igWin) {
+        var win = window.open("https://www.instagram.com/plimjj/?hl=en","_blank");
+        if (win) {
             win.focus();
         } else{
             alert("Please allow popups for this website :P");
         }
     });
     $('#linkedInBtn').on("click", function() {
-        var linkedInWin = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
-        if (linkedinWin) {
+        var win = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
+        if (win) {
             win.focus();
         } else{
             alert("Please allow popups for this website :P");
