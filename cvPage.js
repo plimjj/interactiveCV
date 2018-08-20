@@ -36,8 +36,8 @@ $(document).ready(function() {
         }
     });
     $('#linkedInBtn').on("click", function() {
-        var igWin = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
-        if (igWin) {
+        var linkedInWin = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
+        if (linkedinWin) {
             win.focus();
         } else{
             alert("Please allow popups for this website :P");
