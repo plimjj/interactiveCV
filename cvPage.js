@@ -21,7 +21,7 @@ $(document).ready(function() {
         var facebookWin = window.open("https://www.facebook.com/PLimJJ","_blank");
         console.log("facebook click")
         if (facebookWin) {
-            facebookWin.focus();
+            win.focus();
         } else {
             alert("Please allow popups for this website :P");
         }
@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('#igBtn').on("click", function() {
         var igWin = window.open("https://www.instagram.com/plimjj/?hl=en","_blank");
         if (igWin) {
-            igWin.focus();
+            win.focus();
         } else{
             alert("Please allow popups for this website :P");
         }
@@ -38,7 +38,7 @@ $(document).ready(function() {
     $('#linkedInBtn').on("click", function() {
         var linkedInWin = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
         if (linkedInWin) {
-            LinkedInWin.focus();
+            win.focus();
         } else{
             alert("Please allow popups for this website :P");
         }
