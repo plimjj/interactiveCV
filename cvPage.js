@@ -35,5 +35,13 @@ $(document).ready(function() {
             alert("Please allow popups for this website :P");
         }
     });
+    $('#linkedInBtn').on("click", function() {
+        var igWin = window.open("https://www.linkedin.com/in/patrick-lim-81366673/","_blank");
+        if (igWin) {
+            win.focus();
+        } else{
+            alert("Please allow popups for this website :P");
+        }
+    });
 
 });
