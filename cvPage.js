@@ -9,8 +9,8 @@ $(document).ready(function() {
         $("h2").addClass("animated bounceInRight");
         $("h5").addClass("animated rubberBand");
         $("#leftColumn").addClass("animated bounceInLeft");
-        $("#educationCol").addClass("animated bounceInBottom");
-        $("#experienceCol").addClass("animated bounceInUp");
+        $("#educationCol").addClass("animated bounceInUp");
+        $("#experienceCol").addClass("animated bounceInDown");
         $("#name").delay(2000).addClass("animated zoomIn");
     });
 
